@@ -1,0 +1,41 @@
+#include "scripts\hud\dialogs.hpp"
+
+class CfgSounds
+{
+	sounds[] = {};
+	class hostile_killed
+	{
+		name = "hostile_killed";
+		sound[] = {"sounds\hostile_killed.ogg", 0.8, 1, 100};
+		titles[] = {0,""};
+	};
+
+	class hostage_killed
+	{
+		name = "hostage_killed";
+		sound[] = {"sounds\hostage_killed.ogg", 0.8, 1, 100};
+		titles[] = {0,""};
+	};
+
+	class hostage_rescued
+	{
+		name = "hostage_rescued";
+		sound[] = {"sounds\hostage_rescued.ogg", 0.8, 1, 100};
+		titles[] = {0,""};
+	};
+
+	class new_round
+	{
+		name = "new_round";
+		sound[] = {"sounds\new_round.ogg", 0.8, 1, 100};
+		titles[] = {0,""};
+	};
+
+	class round_end
+	{
+		name = "round_end";
+		sound[] = {"sounds\round_end.ogg", 0.8, 1, 100};
+		titles[] = {0,""};
+	};
+
+};
